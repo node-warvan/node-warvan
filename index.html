@@ -2,10 +2,28 @@
 <html>
 <head>
   <title>Animasi Teks Berjalan</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    marquee {
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <marquee behavior="scroll" direction="left" scrollamount="5">
-    <h1>Ini adalah teks berjalan</h1>
+  <marquee behavior="scroll" direction="left" scrollamount="10">
+    Ini adalah teks berjalan yang responsif dan di tengah layar.
   </marquee>
 </body>
 </html>
