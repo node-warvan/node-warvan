@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Silahturahmi</title>
+  <meta charset="UTF-8">
+  <title>Meme Silaturahmi</title>
   <style>
     body {
       display: flex;
@@ -9,54 +10,23 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      color: white;
-      position: relative;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
     }
-
-    .header {
+    .meme {
       text-align: center;
-      font-size: 72px;
-      margin-bottom: 30px;
-    }
-
-    .marquee-container {
-      max-width: 80%;
-    }
-
-    marquee {
-      width: 100%;
-      text-align: center;
-      font-size: 48px;
-      white-space: nowrap;
-      overflow: hidden;
-      color: #800000;
-      border: 2px solid #fff;
       padding: 20px;
-      border-radius: 20px;
-      box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    }
-
-    .meme-image {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 80%;
-      z-index: -1;
+      border: 2px solid #333;
+      border-radius: 5px;
+      background-color: #fff;
     }
   </style>
 </head>
 <body>
-  <img class="meme-image" src="https://via.placeholder.com/600" alt="Meme Image">
-  <div class="header">
-    <p>Agar Silaturahmi Tidak Putus</p>
-  </div>
-  <div class="marquee-container">
-    <marquee behavior="scroll" direction="left" scrollamount="20">
-      Pinjam Dulu Seratus
-    </marquee>
+  <div class="meme">
+    <h1>Agar silaturahmi tidak putus</h1>
+    <h2>Pinjam dulu seratus</h2>
+    <img src="link_gambar_meme.png" alt="Meme Image">
   </div>
 </body>
 </html>
